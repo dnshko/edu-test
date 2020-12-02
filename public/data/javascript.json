@@ -1,0 +1,290 @@
+{
+    "id": 1,
+    "quiztakers_set": {
+        "id": 2,
+        "usersoptions": [
+            {
+                "id": 7,
+                "quiz_taker": 2,
+                "question": 1,
+                "answer": null
+            },
+            {
+                "id": 8,
+                "quiz_taker": 2,
+                "question": 2,
+                "answer": null
+            },
+            {
+                "id": 9,
+                "quiz_taker": 2,
+                "question": 3,
+                "answer": null
+            },
+            {
+                "id": 10,
+                "quiz_taker": 2,
+                "question": 4,
+                "answer": null
+            },
+            {
+                "id": 11,
+                "quiz_taker": 2,
+                "question": 5,
+                "answer": null
+            },
+            {
+                "id": 12,
+                "quiz_taker": 2,
+                "question": 6,
+                "answer": null
+            }
+        ],
+        "score": 0,
+        "completed": false,
+        "date_finished": null,
+        "timestamp": "2020-11-23T21:58:49.030197Z",
+        "user": 1,
+        "quiz": 1
+    },
+    "questions": [
+        {
+            "id": 1,
+            "name": "name QUESTIONS ????",
+            "order": 0,
+            "quiz": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "question": 1,
+                    "name": "javascript"
+                },
+                {
+                    "id": 2,
+                    "question": 1,
+                    "name": "scripting"
+                },
+                {
+                    "id": 3,
+                    "question": 1,
+                    "name": "script"
+                },
+                {
+                    "id": 4,
+                    "question": 1,
+                    "name": "js"
+                }
+            ],
+            "stepsData":{
+                "stepDesc":"The length,breadth and height of a hall are 25m,15m,5m respectively.What is the cost of renovating its floor and four walls at the rate of 80 rs per meter",
+                "steps":[
+                    "Here length = 25 m, bredth =15m, height= 5m Area of four walls = L.S.A of cuboid =2(l+b)* h ",
+                    "step1 length = 25 m, bredth =15m, height= 5m Area of four walls = L.S.A of cuboid =2(l+b)* h",
+                    "Here length = 25 m, bredth =15m, height= 5m Area of four walls = L.S.A of cuboid =2(l+b)* h",
+                    "Here length = 25 m, bredth =15m, height= 5m Area of four walls = L.S.A of cuboid =2(l+b)* h",
+                    "Here length = 25 m, bredth =15m, height= 5m Area of four walls = L.S.A of cuboid =2(l+b)* h"
+                ]
+            },
+            "videoData":{
+                "videoDesc":" The length,breadth and height of a hall are 25m,15m,5m respectively.What is the cost of renovating its floor and four walls at the rate of 80 rs per meter ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 2,
+            "options": [
+                {
+                    "id": 5,
+                    "question": 2,
+                    "name": "None of the above"
+                },
+                {
+                    "id": 6,
+                    "question": 2,
+                    "name": "Secured and Progressive App"
+                },
+                {
+                    "id": 7,
+                    "question": 2,
+                    "name": "SOLID Principles for Application"
+                },
+                {
+                    "id": 8,
+                    "question": 2,
+                    "name": "Single Page Application"
+                }
+            ],
+            "name": "Inside which HTML element do we put the JavaScript?",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"2",
+                "steps":[
+                    "2 ",
+                    "2 ",
+                    "2 ",
+                    "2 ",
+                    "2 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 2 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 3,
+            "options": [
+                {
+                    "id": 9,
+                    "question": 3,
+                    "name": "dim"
+                },
+                {
+                    "id": 10,
+                    "question": 3,
+                    "name": "let"
+                },
+                {
+                    "id": 11,
+                    "question": 3,
+                    "name": "const"
+                },
+                {
+                    "id": 12,
+                    "question": 3,
+                    "name": "var"
+                }
+            ],
+            "name": "What is the full form of SPA",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"3",
+                "steps":[
+                    "3 ",
+                    "3 ",
+                    "3 ",
+                    "3 ",
+                    "3 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 3 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 4,
+            "options": [
+                {
+                    "id": 13,
+                    "question": 4,
+                    "name": "Displayed text in non-JavaScript browsers."
+                },
+                {
+                    "id": 14,
+                    "question": 4,
+                    "name": "Prevents Script Execution"
+                },
+                {
+                    "id": 15,
+                    "question": 4,
+                    "name": "Requests user not to run scripts"
+                },
+                {
+                    "id": 16,
+                    "question": 4,
+                    "name": "None of the above"
+                }
+            ],
+            "name": "Which of these keyword is NOT used to declare a variable in Javascript?",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"4",
+                "steps":[
+                    "4 ",
+                    "4 ",
+                    "4 ",
+                    "4 ",
+                    "4 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 4 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 5,
+            "options": [
+                {
+                    "id": 17,
+                    "question": 5,
+                    "name": "alert('Hello World');"
+                },
+                {
+                    "id": 18,
+                    "question": 5,
+                    "name": "display 'Hello World'"
+                },
+                {
+                    "id": 19,
+                    "question": 5,
+                    "name": "msgBox(\\\"Hello World\\\");"
+                },
+                {
+                    "id": 20,
+                    "question": 5,
+                    "name": "alertBox(\\\"Hello World\\\");"
+                }
+            ],
+            "name": "What does the <noscript> tag used for?",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"5",
+                "steps":[
+                    "5",
+                    "5 ",
+                    "5 ",
+                    "5 ",
+                    "5 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 6,
+            "options": [],
+            "name": "How do you write \\\"Hello World\\\" in an alert box?",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"6",
+                "steps":[
+                    "6",
+                    "6 ",
+                    "6 ",
+                    "6 ",
+                    "6 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 6 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        }
+    ],
+    "name": "Javascript Quiz",
+    "description": "Javascript Quiz (contains web develepment, Javascript, ES 5/6/7, etc.)",
+    "image": "http://127.0.0.1:8000/media/bg1.png",
+    "slug": "javascript-quiz",
+    "roll_out": false,
+    "timestamp": "2020-11-22T17:53:52.550936Z"
+
+}
