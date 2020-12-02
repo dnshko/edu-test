@@ -14,7 +14,6 @@ import ReactPlayer from 'react-player';
 
 const VideoModal = (props) => {
   const { showPopupvideo, onCancel,question} = props;
-  console.log('id checking',props)
   return (
     <Modal
       visible={showPopupvideo}

@@ -57,22 +57,26 @@
                 {
                     "id": 1,
                     "question": 1,
-                    "name": "javascript"
+                    "name": "javascript",
+                    "isAnswer": false
                 },
                 {
                     "id": 2,
                     "question": 1,
-                    "name": "scripting"
+                    "name": "scripting",
+                    "isAnswer": false
                 },
                 {
                     "id": 3,
                     "question": 1,
-                    "name": "script"
+                    "name": "script",
+                    "isAnswer": true
                 },
                 {
                     "id": 4,
                     "question": 1,
-                    "name": "js"
+                    "name": "js",
+                    "isAnswer": false
                 }
             ],
             "stepsData":{
@@ -96,22 +100,26 @@
                 {
                     "id": 5,
                     "question": 2,
-                    "name": "None of the above"
+                    "name": "None of the above",
+                    "isAnswer": false
                 },
                 {
                     "id": 6,
                     "question": 2,
-                    "name": "Secured and Progressive App"
+                    "name": "Secured and Progressive App",
+                    "isAnswer": false
                 },
                 {
                     "id": 7,
                     "question": 2,
-                    "name": "SOLID Principles for Application"
+                    "name": "SOLID Principles for Application",
+                    "isAnswer": false
                 },
                 {
                     "id": 8,
                     "question": 2,
-                    "name": "Single Page Application"
+                    "name": "Single Page Application",
+                    "isAnswer": true
                 }
             ],
             "name": "Inside which HTML element do we put the JavaScript?",
@@ -138,22 +146,26 @@
                 {
                     "id": 9,
                     "question": 3,
-                    "name": "dim"
+                    "name": "dim",
+                    "isAnswer": true
                 },
                 {
                     "id": 10,
                     "question": 3,
-                    "name": "let"
+                    "name": "let",
+                    "isAnswer": false
                 },
                 {
                     "id": 11,
                     "question": 3,
-                    "name": "const"
+                    "name": "const",
+                    "isAnswer": false
                 },
                 {
                     "id": 12,
                     "question": 3,
-                    "name": "var"
+                    "name": "var",
+                    "isAnswer": false
                 }
             ],
             "name": "What is the full form of SPA",
@@ -180,22 +192,26 @@
                 {
                     "id": 13,
                     "question": 4,
-                    "name": "Displayed text in non-JavaScript browsers."
+                    "name": "Displayed text in non-JavaScript browsers.",
+                    "isAnswer": true
                 },
                 {
                     "id": 14,
                     "question": 4,
-                    "name": "Prevents Script Execution"
+                    "name": "Prevents Script Execution",
+                    "isAnswer": false
                 },
                 {
                     "id": 15,
                     "question": 4,
-                    "name": "Requests user not to run scripts"
+                    "name": "Requests user not to run scripts",
+                    "isAnswer": false
                 },
                 {
                     "id": 16,
                     "question": 4,
-                    "name": "None of the above"
+                    "name": "None of the above",
+                    "isAnswer": false
                 }
             ],
             "name": "Which of these keyword is NOT used to declare a variable in Javascript?",
@@ -222,22 +238,26 @@
                 {
                     "id": 17,
                     "question": 5,
-                    "name": "alert('Hello World');"
+                    "name": "alert('Hello World');",
+                    "isAnswer": true
                 },
                 {
                     "id": 18,
                     "question": 5,
-                    "name": "display 'Hello World'"
+                    "name": "display 'Hello World'",
+                    "isAnswer": false
                 },
                 {
                     "id": 19,
                     "question": 5,
-                    "name": "msgBox(\\\"Hello World\\\");"
+                    "name": "msgBox(\\\"Hello World\\\");",
+                    "isAnswer": false
                 },
                 {
                     "id": 20,
                     "question": 5,
-                    "name": "alertBox(\\\"Hello World\\\");"
+                    "name": "alertBox(\\\"Hello World\\\");",
+                    "isAnswer": false
                 }
             ],
             "name": "What does the <noscript> tag used for?",
