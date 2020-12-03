@@ -77,11 +77,11 @@ function Result(props) {
                     padding: '10',
                     margin: '10px',
                     borderRadius: '20px'
-                }}>
+                }}>{q.isCorrect ? <i className="fa fa-check-circle" style={{fontSize:"30px", position:"relative", top:"40px" ,right:"15px"}}></i> : <i className="fa fa-times-circle" style={{fontSize:"30px", position:"relative", top:"40px" ,right:"15px"}}></i>}
                     <div class="row">
                         <div class="col-lg-8 sm-8">
                     <div className="result-question" style={{backgroundColor : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`}}>
-                        <h5 style={{Color : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`}}>  <span  className="numberBg">{index + 1}</span> {q.name}</h5>
+                        <h5 style={{Color : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`,marginLeft:"20px"}}>  <span  className="numberBg">{index + 1}</span> {q.name}</h5>
                         <div className="row">
                             {
                                 q.options.map(option =>
