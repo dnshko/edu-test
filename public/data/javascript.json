@@ -277,27 +277,6 @@
                 "videoDesc":" 5 ",
                 "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
             }
-        },
-        {
-            "id": 6,
-            "options": [],
-            "name": "How do you write \\\"Hello World\\\" in an alert box?",
-            "order": 0,
-            "quiz": 1,
-            "stepsData":{
-                "stepDesc":"6",
-                "steps":[
-                    "6",
-                    "6 ",
-                    "6 ",
-                    "6 ",
-                    "6 "
-                ]
-            },
-            "videoData":{
-                "videoDesc":" 6 ",
-                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
-            }
         }
     ],
     "name": "Javascript Quiz",
