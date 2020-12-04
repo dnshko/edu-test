@@ -53,7 +53,7 @@ class QuizApp extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{marginTop:"60px", width:"60%"}}>
         <div class="card">
         <Quiz quiz={this.state.quiz} quizId={this.state.quizId} mode={this.state.mode} />
         </div>

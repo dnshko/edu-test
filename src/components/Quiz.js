@@ -60,7 +60,7 @@ class Quiz extends Component {
             <div class="col-md-8 mb-8 d-flex align-items-stretch">
                         {/* <button id="quiz" className="btnSubmit btn-primary" onClick={this.setMode}>Quiz</button>
                         <button id="review" className="btnSubmit btn-primary" onClick={this.setMode}>Review</button> */}
-                        <button id="submit" className="btnSubmit btn-primary " onClick={this.setMode}>Submit Quiz</button >
+                        <button id="submit" style={{width:"25%"}} className="btnSubmit btn-primary " onClick={this.setMode}>Submit Quiz</button >
             
                         </div></div>
                     </>}

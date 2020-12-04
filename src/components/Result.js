@@ -3,7 +3,7 @@ import './Result.css';
 import StepsModal from './viewSteps';
 import VideoModal from './viewVideo';
 import { set,filter, equals, pathOr,head } from 'ramda';
-
+import MathJax from 'react-mathjax'
 
 
 function Result(props) {
@@ -72,21 +72,35 @@ function Result(props) {
                         </nav>
                     
             {questions.map((q, index) =>
+                <MathJax.Provider>
                 <div key={q.id} className={`mb-2 alert ${q.isCorrect ? 'alert-success' : 'alert-danger'}`} role="alert" style={{
                     border: '2px solid',
                     padding: '10',
                     margin: '10px',
                     borderRadius: '20px'
-                }}>{q.isCorrect ? <i className="fa fa-check-circle" style={{fontSize:"30px", position:"relative", top:"40px" ,right:"15px"}}></i> : <i className="fa fa-times-circle" style={{fontSize:"30px", position:"relative", top:"40px" ,right:"15px"}}></i>}
+                }}>{q.isCorrect ? <i className="fa fa-check-circle" style={{fontSize:"30px", position:"relative", top:"40px" ,right:"15px"}}></i> : <i className="fa fa-times-circle" style={{fontSize:"25px", position:"relative", top:"40px" ,right:"15px"}}></i>}
                     <div class="row">
                         <div class="col-lg-8 sm-8">
                     <div className="result-question" style={{backgroundColor : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`}}>
-                        <h5 style={{Color : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`,marginLeft:"20px"}}>  <span  className="numberBg">{index + 1}</span> {q.name}</h5>
+                        <div style={{display:"flex"}}>
+                            <h5 style={{Color : `${q.isCorrect ? 'alert-success' : 'alert-danger'}`,marginLeft:"20px"}}> 
+                            <p style={{
+                                         backgroundColor:"#21234E",
+                                         width:"30px",
+                                         height:"30px",
+                                         marginTop:"10px",
+                                         textAlign:"center",
+                                         borderRadius:"20px",
+                                         fontSize:"20px",
+                                         color:"white"}}>{index + 1} </p>
+                        </h5>
+                        <MathJax.Node formula={q.name} style={{marginLeft:"10px"}}/></div>
                         <div className="row">
                             {
                                 q.options.map(option =>
-                                    <div key={option.id} className="col-6">
-                                        <input id={option.id} type="checkbox" disabled="disabled" checked={(option.selected && option.isAnswer)}  className="option-input radio"  /> {option.name}
+                                    <div key={option.id} className="col-6" style={{display:"flex"}}>
+                                        <input id={option.id} type="checkbox" disabled="disabled" checked={(option.selected && option.isAnswer)}  className="option-input radio"  />
+                                        <MathJax.Node formula={option.name}/>
                                     </div>
                                 )
                             }
@@ -105,6 +119,7 @@ function Result(props) {
                       
                 
                 </div>
+                </MathJax.Provider>
             )}
         </div>
         {showPopup && renderPopup(showQuestionId)}

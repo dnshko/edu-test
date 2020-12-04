@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { ActionTypes } from '../constants/actionTypes';
 import { connect } from 'react-redux';
 import './Question.css';
+import MathJax from 'react-mathjax'
 
 const mapStateToProps = state => ({ ...state.quiz, ...state.mode, ...state.pager });
 
@@ -33,7 +34,11 @@ class Questions extends Component {
         
             <div id="quiz">
                 {/* <div class="card"> */}
-                    <div class="card-header" style={{backgroundColor : '#21234E', color : 'white' ,borderBottom: '5px solid #F05103', borderRadius: '12px 12px 0px 0px'}}>
+                    <div class="card-header" 
+                    style={{backgroundColor : '#21234E',
+                            color : 'white',
+                            borderBottom: '5px solid #F05103',
+                            borderRadius: '12px 12px 0px 0px'}}>
                          <h2 className="text-center font-weight-normal">{this.props.quiz.name}</h2>
                     </div>
 
@@ -56,28 +61,41 @@ class Questions extends Component {
          <div className="row" >
            <div className="col-8" style={{ marginLeft : '17%'}}>    
                     {questions.map(q =>
+                    <MathJax.Provider>
                         <div key={q.id}>
                             
-                            <div className="font-weight-normal">
-                                 <span  className="numberBg">
-                                     <p>{this.props.pager.index + 1} </p>
-                                 </span>    
-                                  <span style={{marginLeft : '10px' , fontSize : '20px'}}>{q.name}</span></div>
+                            <div className="font-weight-normal" style={{display:"flex"}}>
+                                 
+                                     
+                                    
+                                 
+                                <div><p style={{
+                                         backgroundColor:"#21234E",
+                                         width:"30px",
+                                         height:"30px",
+                                         marginTop:"10px",
+                                         textAlign:"center",
+                                         borderRadius:"20px",
+                                         fontSize:"20px",
+                                         color:"white"}}>{this.props.pager.index + 1} </p></div>
+                                      <MathJax.Node formula={q.name} style={{marginLeft:"10px"}}/></div>
                             <div className="row text-left options">
                                 {
                                     q.options.map(option =>
-                                        <div key={option.id} className="col-6">
-                                            <div className="option">
-                                                <label className="font-weight-normal" htmlFor={option.id}>
-                                                    <input id={option.id} checked={option.selected} type="radio" onChange={() => this.onAnswer(q, option)} className="option-input radio" />
-                                                    {option.name}
-                                                </label>
-                                            </div>
+                                        <div key={option.id} className="col-6" style={{display:"flex"}}>
+                                            {/* <div className="option"> */}
+                                                {/* <label className="font-weight-normal" htmlFor={option.id}> */}
+                                                    <div><input id={option.id} name={option.question} checked={option.selected} type="radio" onChange={() => this.onAnswer(q, option)} className="option-input radio" /></div>
+                                                    <MathJax.Node formula={option.name}/>
+                                                {/* </label> */}
+                                            {/* </div> */}
                                         </div>
                                     )
                                 }
                             </div>
                         </div>
+                        </MathJax.Provider>
+                        
                     )}
                     <hr />
                     <div className="text-center">
