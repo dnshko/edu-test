@@ -50,32 +50,32 @@
     "questions": [
         {
             "id": 1,
-            "name": "name QUESTIONS ????",
+            "name": "Area of Circle",
             "order": 0,
             "quiz": 1,
             "options": [
                 {
                     "id": 1,
                     "question": 1,
-                    "name": "javascript",
+                    "name": "\\pi r^2",
                     "isAnswer": false
                 },
                 {
                     "id": 2,
                     "question": 1,
-                    "name": "scripting",
+                    "name": "\\pi r^3",
                     "isAnswer": false
                 },
                 {
                     "id": 3,
                     "question": 1,
-                    "name": "script",
+                    "name": "2\\pi r",
                     "isAnswer": true
                 },
                 {
                     "id": 4,
                     "question": 1,
-                    "name": "js",
+                    "name": "\\pi r",
                     "isAnswer": false
                 }
             ],
@@ -100,29 +100,29 @@
                 {
                     "id": 5,
                     "question": 2,
-                    "name": "None of the above",
-                    "isAnswer": false
+                    "name": "a^2",
+                    "isAnswer": true
                 },
                 {
                     "id": 6,
                     "question": 2,
-                    "name": "Secured and Progressive App",
+                    "name": "a^3",
                     "isAnswer": false
                 },
                 {
                     "id": 7,
                     "question": 2,
-                    "name": "SOLID Principles for Application",
+                    "name": "4a",
                     "isAnswer": false
                 },
                 {
                     "id": 8,
                     "question": 2,
-                    "name": "Single Page Application",
+                    "name": "2a",
                     "isAnswer": true
                 }
             ],
-            "name": "Inside which HTML element do we put the JavaScript?",
+            "name": "Area of Square",
             "order": 0,
             "quiz": 1,
             "stepsData":{
@@ -146,29 +146,29 @@
                 {
                     "id": 9,
                     "question": 3,
-                    "name": "dim",
+                    "name": "c=\\sqrt{a^2+b^2}",
                     "isAnswer": true
                 },
                 {
                     "id": 10,
                     "question": 3,
-                    "name": "let",
+                    "name": "c=\\sqrt{a^2-b^2}",
                     "isAnswer": false
                 },
                 {
                     "id": 11,
                     "question": 3,
-                    "name": "const",
+                    "name": "c=\\sqrt{a^3+b^3}",
                     "isAnswer": false
                 },
                 {
                     "id": 12,
                     "question": 3,
-                    "name": "var",
+                    "name": "c = \\sqrt{a^3-b^3}",
                     "isAnswer": false
                 }
             ],
-            "name": "What is the full form of SPA",
+            "name": "Pythagoras Theorem",
             "order": 0,
             "quiz": 1,
             "stepsData":{
@@ -192,29 +192,29 @@
                 {
                     "id": 13,
                     "question": 4,
-                    "name": "Displayed text in non-JavaScript browsers.",
+                    "name": "1/2 bh.",
                     "isAnswer": true
                 },
                 {
                     "id": 14,
                     "question": 4,
-                    "name": "Prevents Script Execution",
+                    "name": "lbh",
                     "isAnswer": false
                 },
                 {
                     "id": 15,
                     "question": 4,
-                    "name": "Requests user not to run scripts",
+                    "name": "1/4 bh",
                     "isAnswer": false
                 },
                 {
                     "id": 16,
                     "question": 4,
-                    "name": "None of the above",
+                    "name": "2bh",
                     "isAnswer": false
                 }
             ],
-            "name": "Which of these keyword is NOT used to declare a variable in Javascript?",
+            "name": "Area of Triangle",
             "order": 0,
             "quiz": 1,
             "stepsData":{
@@ -238,29 +238,29 @@
                 {
                     "id": 17,
                     "question": 5,
-                    "name": "alert('Hello World');",
+                    "name": "V= \\pi r^2 h",
                     "isAnswer": true
                 },
                 {
                     "id": 18,
                     "question": 5,
-                    "name": "display 'Hello World'",
+                    "name": "V= \\pi r^3 h",
                     "isAnswer": false
                 },
                 {
                     "id": 19,
                     "question": 5,
-                    "name": "msgBox(\\\"Hello World\\\");",
+                    "name": "V= \\pi r^2 h^2",
                     "isAnswer": false
                 },
                 {
                     "id": 20,
                     "question": 5,
-                    "name": "alertBox(\\\"Hello World\\\");",
+                    "name": "V= r^2 h",
                     "isAnswer": false
                 }
             ],
-            "name": "What does the <noscript> tag used for?",
+            "name": "Volume of Cylinder",
             "order": 0,
             "quiz": 1,
             "stepsData":{
@@ -271,6 +271,466 @@
                     "5 ",
                     "5 ",
                     "5 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 6,
+            "options": [
+                {
+                    "id": 21,
+                    "question": 6,
+                    "name": "\\pi r^2",
+                    "isAnswer": true
+                },
+                {
+                    "id": 22,
+                    "question": 6,
+                    "name": "2\\pi r",
+                    "isAnswer": false
+                },
+                {
+                    "id": 23,
+                    "question": 6,
+                    "name": "\\pi r^3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 24,
+                    "question": 6,
+                    "name": "2\\pi r^2",
+                    "isAnswer": false
+                }
+            ],
+            "name": "Area of Circle",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"6",
+                "steps":[
+                    "6",
+                    "6 ",
+                    "6 ",
+                    "6 ",
+                    "6 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 7,
+            "options": [
+                {
+                    "id": 25,
+                    "question": 7,
+                    "name": "a^2",
+                    "isAnswer": true
+                },
+                {
+                    "id": 26,
+                    "question": 7,
+                    "name": "a^3",
+                    "isAnswer": false
+                },
+                {
+                    "id": 27,
+                    "question": 7,
+                    "name": "4a",
+                    "isAnswer": false
+                },
+                {
+                    "id": 28,
+                    "question": 7,
+                    "name": "2a",
+                    "isAnswer": false
+                }
+            ],
+            "name": "Area of Square",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"7",
+                "steps":[
+                    "7",
+                    "7 ",
+                    "7 ",
+                    "7 ",
+                    "7 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 8,
+            "options": [
+                {
+                    "id": 29,
+                    "question": 8,
+                    "name": "1/2 bh",
+                    "isAnswer": true
+                },
+                {
+                    "id": 30,
+                    "question": 8,
+                    "name": "1/4bh",
+                    "isAnswer": false
+                },
+                {
+                    "id": 31,
+                    "question": 8,
+                    "name": "lbh",
+                    "isAnswer": false
+                },
+                {
+                    "id": 32,
+                    "question": 8,
+                    "name": "bh",
+                    "isAnswer": false
+                }
+            ],
+            "name": "Area of Triangle",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"8",
+                "steps":[
+                    "8",
+                    "8 ",
+                    "8 ",
+                    "8 ",
+                    "8 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 9,
+            "options": [
+                {
+                    "id": 33,
+                    "question": 9,
+                    "name": "(ad+bc)/ab",
+                    "isAnswer": true
+                },
+                {
+                    "id": 34,
+                    "question": 9,
+                    "name": "(ac+bd)/ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 35,
+                    "question": 9,
+                    "name": "(ab+bc)/cd",
+                    "isAnswer": false
+                },
+                {
+                    "id": 36,
+                    "question": 9,
+                    "name": "(ab+cd)/cd",
+                    "isAnswer": false
+                }
+            ],
+            "name": "a/b + c/d",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"9",
+                "steps":[
+                    "9",
+                    "9 ",
+                    "9 ",
+                    "9 ",
+                    "9 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 10,
+            "options": [
+                {
+                    "id": 37,
+                    "question": 10,
+                    "name": "(a+b)(a-b)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 38,
+                    "question": 10,
+                    "name": "(a+b)(a+b)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 39,
+                    "question": 10,
+                    "name": "(a-b)(a-b)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 40,
+                    "question": 10,
+                    "name": "(a+b)^2",
+                    "isAnswer": false
+                }
+            ],
+            "name": "a^2 - b^2",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"10",
+                "steps":[
+                    "10",
+                    "10 ",
+                    "10 ",
+                    "10 ",
+                    "10 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 11,
+            "options": [
+                {
+                    "id": 41,
+                    "question": 11,
+                    "name": "a^2 + b^2 + 2ab",
+                    "isAnswer": true
+                },
+                {
+                    "id": 42,
+                    "question": 11,
+                    "name": "a^2 - b^2 + 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 43,
+                    "question": 11,
+                    "name": "a^2 + b^2 - 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 44,
+                    "question": 11,
+                    "name": "a^2 - b^2 - 2ab",
+                    "isAnswer": false
+                }
+            ],
+            "name": "(a+b)^2",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"11",
+                "steps":[
+                    "11",
+                    "11 ",
+                    "11 ",
+                    "11 ",
+                    "11 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 12,
+            "options": [
+                {
+                    "id": 45,
+                    "question": 12,
+                    "name": "a^2 + b^2 - 2ab",
+                    "isAnswer": true
+                },
+                {
+                    "id": 46,
+                    "question": 12,
+                    "name": "a^2 + b^2 + 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 47,
+                    "question": 12,
+                    "name": "a^2 - b^2 + 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 48,
+                    "question": 12,
+                    "name": "a^2 - b^2 - 2ab",
+                    "isAnswer": false
+                }
+            ],
+            "name": "(a+b)^2",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"12",
+                "steps":[
+                    "12",
+                    "12 ",
+                    "12 ",
+                    "12 ",
+                    "12 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 13,
+            "options": [
+                {
+                    "id": 49,
+                    "question": 13,
+                    "name": "(a + b)^2 – 2ab",
+                    "isAnswer": true
+                },
+                {
+                    "id": 50,
+                    "question": 13,
+                    "name": " (a - b)^2 – 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 51,
+                    "question": 13,
+                    "name": " (a + b)^2 + 2ab",
+                    "isAnswer": false
+                },
+                {
+                    "id": 52,
+                    "question": 13,
+                    "name": " (a - b)^2 + 2ab",
+                    "isAnswer": false
+                }
+            ],
+            "name": "a^2 + b^2",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"13",
+                "steps":[
+                    "13",
+                    "13 ",
+                    "13 ",
+                    "13 ",
+                    "13 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 14,
+            "options": [
+                {
+                    "id": 53,
+                    "question": 14,
+                    "name": "a^2 – 2ab + b^2",
+                    "isAnswer": true
+                },
+                {
+                    "id": 54,
+                    "question": 14,
+                    "name": "a^2 + 2ab + b^2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 55,
+                    "question": 14,
+                    "name": "a^2 – 2ab - b^2",
+                    "isAnswer": false
+                },
+                {
+                    "id": 56,
+                    "question": 14,
+                    "name": "a^2 + 2ab - b^2",
+                    "isAnswer": false
+                }
+            ],
+            "name": "(a – b)^2",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"14",
+                "steps":[
+                    "14",
+                    "14 ",
+                    "14 ",
+                    "14 ",
+                    "14 "
+                ]
+            },
+            "videoData":{
+                "videoDesc":" 5 ",
+                "videoLink":"https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            }
+        },
+        {
+            "id": 15,
+            "options": [
+                {
+                    "id": 57,
+                    "question": 15,
+                    "name": "(a + b)(a^2 – ab + b^2)",
+                    "isAnswer": true
+                },
+                {
+                    "id": 58,
+                    "question": 15,
+                    "name": "(a - b)(a^2 – ab + b^2)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 59,
+                    "question": 15,
+                    "name": "(a + b)(a^2 + ab + b^2)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 60,
+                    "question": 15,
+                    "name": "(a + b)(a^2 – ab - b^2)",
+                    "isAnswer": false
+                }
+            ],
+            "name": "a^3 + b^3",
+            "order": 0,
+            "quiz": 1,
+            "stepsData":{
+                "stepDesc":"15",
+                "steps":[
+                    "15",
+                    "15 ",
+                    "15 ",
+                    "15 ",
+                    "15 "
                 ]
             },
             "videoData":{
